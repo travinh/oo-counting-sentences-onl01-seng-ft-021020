@@ -29,7 +29,7 @@ class String
       count = count + array.length-1
       array = self.split("... ")
       count = count + array.length-1
-      
+      count = count +1
     end
   end
   
