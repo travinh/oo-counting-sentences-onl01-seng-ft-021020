@@ -30,7 +30,6 @@ class String
       array = self.split("... ")
       count = count + array.length-1
       
-      array
     end
   end
   
