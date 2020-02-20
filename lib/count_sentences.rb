@@ -16,19 +16,21 @@ class String
   end
 
   def count_sentences
+    count=0
     if self = ""
       count=0
-    array = []
-    count=0
-    array = self.split(". ")
-    count = count + array.length-1
-    array = self.split("!")
-    count = count + array.length-1
-    array = self.split("?")
-    count = count + array.length-1
-    array = self.split("... ")
-    count = count + array.length-1
-    count = count+1
+    else
+      array = []
+      
+      array = self.split(". ")
+      count = count + array.length-1
+      array = self.split("!")
+      count = count + array.length-1
+      array = self.split("?")
+      count = count + array.length-1
+      array = self.split("... ")
+      count = count + array.length-1
+      count = count+1
     
   end
 end
