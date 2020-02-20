@@ -15,22 +15,6 @@ class String
     self.end_with?("!")? true : false
   end
 
-  def count_sentences
-    count=0
-    if self.length ==0
-      count=0
-    else
-      array = []
-      array = self.split(". ")
-      count = count + array.length-1
-      array = self.split("! ")
-      count = count + array.length-1
-      array = self.split("? ")
-      count = count + array.length-1
-      array = self.split("... ")
-      count = count + array.length-1
-      count = count +1
-    end
-  end
+  
   
 end
