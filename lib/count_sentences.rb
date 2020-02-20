@@ -19,7 +19,9 @@ class String
     array = []
     count=0
     array = arrself.split(". ")
-    count = count + array.length
+    count = count + array.length-1
     array = arrself.split("! ")
+    count = count + array.length-1
+    
   end
 end
