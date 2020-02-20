@@ -32,6 +32,6 @@ class String
       count = count + array.length-1
       count = count+1
     
-  end
+    end
   end
 end
