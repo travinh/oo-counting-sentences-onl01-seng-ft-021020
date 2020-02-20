@@ -21,7 +21,6 @@ class String
       count=0
     else
       array = []
-      
       array = self.split(". ")
       count = count + array.length-1
       array = self.split("!")
@@ -31,7 +30,7 @@ class String
       array = self.split("... ")
       count = count + array.length-1
       count = count+1
-    
     end
   end
+  
 end
