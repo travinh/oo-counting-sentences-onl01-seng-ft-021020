@@ -17,7 +17,7 @@ class String
 
   def count_sentences
     count=0
-    if self = ""
+    if self.length ==0
       count=0
     else
       array = []
