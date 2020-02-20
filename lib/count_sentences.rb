@@ -18,13 +18,13 @@ class String
   def count_sentences
     array = []
     count=0
-    array = arrself.split(". ")
+    array = self.split(". ")
     count = count + array.length-1
-    array = arrself.split("!")
+    array = self.split("!")
     count = count + array.length-1
-    array = arrself.split("?")
+    array = self.split("?")
     count = count + array.length-1
-    array = arrself.split("... ")
+    array = self.split("... ")
     count = count + array.length-1
     count = count+1
     
