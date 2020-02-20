@@ -16,6 +16,8 @@ class String
   end
 
   def count_sentences
+    if self = ""
+      count=0
     array = []
     count=0
     array = self.split(". ")
