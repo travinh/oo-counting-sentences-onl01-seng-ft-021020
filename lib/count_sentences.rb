@@ -29,7 +29,8 @@ class String
       count = count + array.length-1
       array = self.split("... ")
       count = count + array.length-1
-      puts array
+      
+      array
     end
   end
   
