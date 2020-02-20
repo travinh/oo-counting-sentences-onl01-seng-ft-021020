@@ -20,8 +20,13 @@ class String
     count=0
     array = arrself.split(". ")
     count = count + array.length-1
-    array = arrself.split("! ")
+    array = arrself.split("!")
     count = count + array.length-1
+    array = arrself.split("?")
+    count = count + array.length-1
+    array = arrself.split("... ")
+    count = count + array.length-1
+    count = count+1
     
   end
 end
