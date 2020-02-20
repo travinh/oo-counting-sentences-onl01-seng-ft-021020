@@ -23,9 +23,9 @@ class String
       array = []
       array = self.split(". ")
       count = count + array.length-1
-      array = self.split("!")
+      array = self.split("! ")
       count = count + array.length-1
-      array = self.split("?")
+      array = self.split("? ")
       count = count + array.length-1
       array = self.split("... ")
       count = count + array.length-1
